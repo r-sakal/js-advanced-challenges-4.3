@@ -92,3 +92,8 @@ async function postsByUser(userId) {
 }
 
 postsByUser(4);
+
+//Q6 Find the First 6 Incomplete Todos
+//  Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
+//      firstSixIncomplete(todos)
+
