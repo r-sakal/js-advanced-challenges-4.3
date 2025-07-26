@@ -69,4 +69,13 @@ console.log(sortPriceHighToLow([
     {id: 1, price: 50},
     {id: 2, price: 30},
     {id: 3, price: 60},
-    {id: 4, price: 10}]))
+    {id: 4, price: 10}]));
+
+//Q4 Homework
+// On Youtube, watch
+
+//  "The Async Await Episode I Promised" -Fireship
+
+//  "Async Await JavaScript ES7" -Techsith (1.5x speed)
+
+//  If you are still lost watch "Async JS Crash Course - Callbacks, Promises, Async Await" - Travservy Media (1.5x speed)
