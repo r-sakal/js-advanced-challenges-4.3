@@ -79,3 +79,16 @@ console.log(sortPriceHighToLow([
 //  "Async Await JavaScript ES7" -Techsith (1.5x speed)
 
 //  If you are still lost watch "Async JS Crash Course - Callbacks, Promises, Async Await" - Travservy Media (1.5x speed)
+
+//Q5 Find all the posts by a single user
+//  Call this API "https://jsonplaceholder.typicode.com/posts" and return all the posts by any given user id.
+
+//      postsByUser(4)
+async function postsByUser(userId) {
+    const promise= await fetch("https://jsonplaceholder.typicode.com/posts");
+    const result = await promise.json(); 
+    const posts = result.filter(element => element.userId === userId);
+    console.log(posts)
+}
+
+postsByUser(4);
