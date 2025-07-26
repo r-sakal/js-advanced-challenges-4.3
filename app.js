@@ -6,6 +6,19 @@
 //showRating(4.5)
 //showRating(0.5)
 
+//Notes on how to do this 
+        // initialise an empty string
+
+        // loop through the rounded down rating
+
+        // add a star for every iteration
+
+        // if its not the last iteration add a space
+
+        // if the number is not an integer add a full stop " ."
+
+        // return it
+
 function showRating(rating) {
 let ratings = "";
 for (let i = 0; i < Math.floor(rating); ++i) {
@@ -25,3 +38,5 @@ return ratings;
 }
 
 console.log(showRating(2.5))
+
+//Q2 
