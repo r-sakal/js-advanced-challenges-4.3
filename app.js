@@ -53,3 +53,20 @@ function sortLowToHigh(arr) {
 
 
 console.log(sortLowToHigh([20, 40, 10, 30, 50, 10]))
+
+//Q3 Sort by highest to lowest price
+    // Given an array of objects, return the prices sorted by high to low.
+// sortHighToLow([
+// {id: 1, price: 50},
+// {id: 2, price: 30},
+// {id: 3, price: 60},
+// {id: 4, price: 10}])
+function sortPriceHighToLow(price) {
+    return price.sort((a, b) => b.price- a.price)
+}
+
+console.log(sortPriceHighToLow([
+    {id: 1, price: 50},
+    {id: 2, price: 30},
+    {id: 3, price: 60},
+    {id: 4, price: 10}]))
