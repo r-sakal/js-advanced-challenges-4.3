@@ -39,4 +39,17 @@ return ratings;
 
 console.log(showRating(2.5))
 
-//Q2 
+//Q2 Sort by lowest to highest price
+//  Given an array of numbers, return the prices sorted by low to high.
+
+// sortLowToHigh([20, 40, 10, 30, 50, 10])
+
+// sortLowToHigh([5, 10, 0, 5])
+
+// sortLowToHigh([3, 2, 1, 0])
+function sortLowToHigh(arr) {
+    return arr.sort((a, b) => a - b);
+}
+
+
+console.log(sortLowToHigh([20, 40, 10, 30, 50, 10]))
